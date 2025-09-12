@@ -1,0 +1,12 @@
+name: Publish Snapshot package
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  publish-snapshot:
+    uses: eclipse-keyple/keyple-actions/.github/workflows/reusable-publish-snapshot.yml@publish-snapshot-v1
+    secrets: inherit
+    with:
+      update-documentation: false
