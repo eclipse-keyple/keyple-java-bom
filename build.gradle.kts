@@ -133,6 +133,6 @@ publishing {
 signing {
   if (project.hasProperty("releaseTag")) {
     useGpgCmd()
-    sign(publishing.publications["mavenJava"])
+    sign(publishing.publications["javaPlatform"])
   }
 }
