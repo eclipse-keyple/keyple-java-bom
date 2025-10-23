@@ -32,7 +32,7 @@ dependencies {
     // Keyple core
     api("org.eclipse.keyple:keyple-common-java-api:2.0.2")
     api("org.eclipse.keyple:keyple-plugin-storagecard-java-api:1.0.0")
-    api("org.eclipse.keyple:keyple-service-java-lib:3.3.5")
+    api("org.eclipse.keyple:keyple-service-java-lib:3.3.6")
     api("org.eclipse.keyple:keyple-service-resource-java-lib:3.1.0")
     api("org.eclipse.keyple:keyple-util-java-lib:2.4.0")
     // Keyple distributed
@@ -61,7 +61,7 @@ dependencies {
     api("org.eclipse.keyple:keyple-plugin-android-nfc-java-lib:3.1.0")
     api("org.eclipse.keyple:keyple-plugin-android-omapi-java-lib:2.1.0")
     api("org.eclipse.keyple:keyple-plugin-cardresource-java-lib:2.0.1")
-    api("org.eclipse.keyple:keyple-plugin-pcsc-java-lib:2.5.2")
+    api("org.eclipse.keyple:keyple-plugin-pcsc-java-lib:2.5.3")
     api("org.eclipse.keyple:keyple-plugin-stub-java-lib:2.2.1")
   }
 }
