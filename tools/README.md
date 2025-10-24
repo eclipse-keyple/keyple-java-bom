@@ -118,19 +118,19 @@ The new section follows this format:
 ```markdown
 ## [2025.10.30]
 
-| Component                                       | Version | Status | Prev.<br>Version |
-|:------------------------------------------------|:-------:|:------:|:----------------:|
-| **Keypop Dependencies** |         |        |                  |
-| [keypop-reader-java-api]                        | `2.0.1` |        |                  |
-| ...                                             |         |        |                  |
-|                                                 |         |        |                  |
-| **Keyple Core** |         |        |                  |
-| [keyple-common-java-api]                        | `2.0.2` |        |                  |
-| [keyple-service-java-lib]                       | `3.4.0` |   🔵   |     `3.3.6`      |
-| [keyple-service-resource-java-lib]              | `4.0.0` |   🔴   |     `3.1.0`      |
-| [keyple-test-java-lib]                          | `1.0.0` |   🆕   |                  |
-| [keyple-util-java-lib]                          | `2.4.0` |   ❌   |                  |
-| ...                                             |         |        |                  |
+| Component                          | Version | Status | Prev.<br>Version |
+|:-----------------------------------|:-------:|:------:|:----------------:|
+| **Keypop Dependencies**            |         |        |                  |
+| [keypop-reader-java-api]           | `2.0.1` |        |                  |
+| ...                                |         |        |                  |
+|                                    |         |        |                  |
+| **Keyple Core**                    |         |        |                  |
+| [keyple-common-java-api]           | `2.0.2` |        |                  |
+| [keyple-service-java-lib]          | `3.4.0` |   🔵   |     `3.3.6`      |
+| [keyple-service-resource-java-lib] | `4.0.0` |   🔴   |     `3.1.0`      |
+| [keyple-test-java-lib]             | `1.0.0` |   🆕   |                  |
+| [keyple-util-java-lib]             | `2.4.0` |   ❌   |                  |
+| ...                                |         |        |                  |
 ```
 
 In this example:
