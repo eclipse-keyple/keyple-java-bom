@@ -56,7 +56,7 @@ dependencies {
     api("org.eclipse.keyple:keyple-card-calypso-java-lib:3.1.9")
     api("org.eclipse.keyple:keyple-card-calypso-crypto-legacysam-java-lib:0.9.0")
     api("org.eclipse.keyple:keyple-card-calypso-crypto-pki-java-lib:0.2.3")
-    api("org.eclipse.keyple:keyple-card-generic-java-lib:3.1.2")
+    api("org.eclipse.keyple:keyple-card-generic-java-lib:3.1.3")
     // Keyple reader plugins
     api("org.eclipse.keyple:keyple-plugin-android-nfc-java-lib:3.1.0")
     api("org.eclipse.keyple:keyple-plugin-android-omapi-java-lib:2.1.0")
