@@ -32,7 +32,7 @@ dependencies {
     // Keyple core
     api("org.eclipse.keyple:keyple-common-java-api:2.0.2")
     api("org.eclipse.keyple:keyple-plugin-storagecard-java-api:1.0.0")
-    api("org.eclipse.keyple:keyple-service-java-lib:3.3.6")
+    api("org.eclipse.keyple:keyple-service-java-lib:3.3.7")
     api("org.eclipse.keyple:keyple-service-resource-java-lib:3.1.0")
     api("org.eclipse.keyple:keyple-util-java-lib:2.4.0")
     // Keyple distributed
@@ -54,7 +54,7 @@ dependencies {
     api("org.eclipse.keyple:keyple-interop-localreader-nfcmobile-kmp-lib-iosx64:0.1.6")
     // Keyple card extensions
     api("org.eclipse.keyple:keyple-card-calypso-java-lib:3.1.9")
-    api("org.eclipse.keyple:keyple-card-calypso-crypto-legacysam-java-lib:0.9.0")
+    api("org.eclipse.keyple:keyple-card-calypso-crypto-legacysam-java-lib:0.9.1")
     api("org.eclipse.keyple:keyple-card-calypso-crypto-pki-java-lib:0.2.3")
     api("org.eclipse.keyple:keyple-card-generic-java-lib:3.1.3")
     // Keyple reader plugins
