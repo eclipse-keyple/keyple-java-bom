@@ -1,3 +1,9 @@
+# Tools
+
+This directory contains automation scripts for the Keyple Java BOM project.
+
+---
+
 # Automatic CHANGELOG Update Script
 
 ## Description
@@ -167,3 +173,136 @@ The script also automatically updates the links at the bottom of the file:
 - New dependencies (🆕) and version changes (🟢🔵🔴) appear in the order of the `build.gradle.kts` file
 - Removed dependencies (❌) appear after the current dependencies of their original category
 - If an entire category is removed, it appears at the end of the table with its dependencies marked ❌
+
+---
+
+# BOM Version Check Script
+
+## Description
+
+`check_version.py` is a Python script that **verifies BOM dependency versions** by checking:
+1. Whether dependencies are up-to-date with their latest GitHub releases
+2. Whether dependencies have unreleased changes in their CHANGELOG.md files
+
+## Features
+
+- **Automatic version verification** against GitHub releases
+- **CHANGELOG.md analysis** to detect unreleased changes
+- **Comprehensive reporting** with:
+  - List of outdated dependencies
+  - List of dependencies with unreleased changes
+  - Summary statistics
+  - Error reporting
+- Exit code 0 if everything is up-to-date, exit code 1 otherwise
+
+-----
+
+## Prerequisites
+
+- Python 3.7 or higher
+- **Python package**: `requests` (install with `pip install requests`)
+- A `user.properties` file at the project root containing a valid GitHub token:
+  ```properties
+  githubToken=your_github_personal_access_token
+  ```
+- The `build.gradle.kts` file must be located at the project root
+
+-----
+
+## Usage
+
+**Important**: The script must be executed from the project root directory.
+
+### Basic Usage
+
+```bash
+# On Windows
+.\tools\check_version.bat
+
+# On Linux/Mac
+./tools/check_version.sh
+
+# With Python directly (all systems)
+python tools/check_version.py
+```
+
+-----
+
+## Behavior
+
+1. **Token Verification**: Validates the GitHub token from `user.properties`
+2. **Dependency Parsing**: Extracts all dependencies from `build.gradle.kts`
+3. **Version Check**: For each dependency:
+   - Fetches the latest release from GitHub
+   - Compares with the current version in BOM
+   - Checks if the Unreleased section in CHANGELOG.md is empty
+4. **Report Generation**: Displays a comprehensive report with:
+   - Outdated dependencies (current vs. latest version)
+   - Dependencies with unreleased changes
+   - Errors encountered
+   - Summary statistics
+
+-----
+
+## Example Output
+
+```
+Starting BOM version check...
+
+Verifying GitHub token...
+GitHub token is valid.
+
+Found 23 dependencies to check
+
+[1/23] Checking org.eclipse.keypop:keypop-reader-java-api:2.0.1
+[2/23] Checking org.eclipse.keyple:keyple-service-java-lib:3.4.0
+...
+
+================================================================================
+BOM VERSION CHECK REPORT
+================================================================================
+
+[!] OUTDATED DEPENDENCIES:
+--------------------------------------------------------------------------------
+  org.eclipse.keyple:keyple-service-java-lib
+    Current: 3.3.6
+    Latest:  3.4.0
+
+[!] DEPENDENCIES WITH UNRELEASED CHANGES:
+--------------------------------------------------------------------------------
+  org.eclipse.keypop:keypop-reader-java-api
+    Has unreleased changes (234 chars)
+
+[OK] All other dependencies are up-to-date
+
+================================================================================
+SUMMARY:
+--------------------------------------------------------------------------------
+  Total dependencies:           23
+  Up-to-date:                   21
+  Outdated:                     1
+  With unreleased changes:      1
+  Errors:                       0
+================================================================================
+```
+
+-----
+
+## Exit Codes
+
+- **0**: All dependencies are up-to-date and have empty Unreleased sections
+- **1**: At least one of the following:
+  - Outdated dependency found
+  - Dependency with unreleased changes found
+  - Error occurred during verification
+
+-----
+
+## Notes
+
+- The script requires a valid GitHub Personal Access Token to avoid API rate limits
+- Dependencies are mapped from Maven coordinates to GitHub repositories:
+  - `org.eclipse.keypop:*` → `eclipse-keypop/*`
+  - `org.eclipse.keyple:*` → `eclipse-keyple/*`
+- The script checks the `[Unreleased]` section of each dependency's CHANGELOG.md
+- Useful for CI/CD pipelines to ensure all dependencies are up-to-date before release
