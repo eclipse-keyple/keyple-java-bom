@@ -41,3 +41,6 @@ Thumbs.db:encryptable
 ehthumbs.db
 ehthumbs_vista.db
 *.stackdump
+
+# User
+/user.properties
