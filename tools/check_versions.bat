@@ -9,7 +9,7 @@ REM Move to project root directory (parent of tools folder)
 cd /d "%~dp0.."
 
 REM Execute Python script from tools folder
-python "%~dp0check_version.py" %*
+python "%~dp0check_versions.py" %*
 
 REM Restore current directory
 cd /d "%CURRENT_DIR%"
