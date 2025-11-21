@@ -180,7 +180,7 @@ The script also automatically updates the links at the bottom of the file:
 
 ## Description
 
-`check_version.py` is a Python script that **verifies BOM dependency versions** by checking:
+`check_versions.py` is a Python script that **verifies BOM dependency versions** by checking:
 1. Whether dependencies are up-to-date with their latest GitHub releases
 2. Whether dependencies have unreleased changes in their CHANGELOG.md files
 
@@ -217,13 +217,13 @@ The script also automatically updates the links at the bottom of the file:
 
 ```bash
 # On Windows
-.\tools\check_version.bat
+.\tools\check_versions.bat
 
 # On Linux/Mac
-./tools/check_version.sh
+./tools/check_versions.sh
 
 # With Python directly (all systems)
-python tools/check_version.py
+python tools/check_versions.py
 ```
 
 -----

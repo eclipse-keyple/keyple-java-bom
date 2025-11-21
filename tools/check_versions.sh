@@ -1,6 +1,6 @@
 #!/bin/bash
 # Script to check BOM dependency versions
-# Usage: check_version.sh
+# Usage: check_versions.sh
 
 # Get the directory where the script is located
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
@@ -9,4 +9,4 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 cd "$SCRIPT_DIR/.."
 
 # Execute Python script
-python "$SCRIPT_DIR/check_version.py" "$@"
+python "$SCRIPT_DIR/check_versions.py" "$@"

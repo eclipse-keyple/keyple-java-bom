@@ -1,6 +1,6 @@
 @echo off
 REM Script to check BOM dependency versions
-REM Usage: check_version.bat
+REM Usage: check_versions.bat
 
 REM Save current directory
 set CURRENT_DIR=%CD%
