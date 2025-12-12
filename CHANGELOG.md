@@ -8,6 +8,45 @@ Legend: 🆕 New • ❌ Removed • 🟢 Patch • 🔵 Minor • 🔴 Major
 
 ## [Unreleased]
 
+## [2025.12.12]
+
+| Component                                       | Version | Status | Prev.<br>Version |
+|:------------------------------------------------|:-------:|:------:|:----------------:|
+| **Keypop Dependencies**                         |         |        |                  |
+| [keypop-reader-java-api]                        | `2.1.0` |        |                  |
+| [keypop-calypso-card-java-api]                  | `2.2.0` |        |                  |
+| [keypop-calypso-crypto-legacysam-java-api]      | `1.0.0` |        |                  |
+| [keypop-storagecard-java-api]                   | `1.0.0` |        |                  |
+|                                                 |         |        |                  |
+| **Keyple Core**                                 |         |        |                  |
+| [keyple-common-java-api]                        | `2.0.2` |        |                  |
+| [keyple-plugin-storagecard-java-api]            | `1.0.0` |        |                  |
+| [keyple-service-java-lib]                       | `3.4.0` |        |                  |
+| [keyple-service-resource-java-lib]              | `3.1.0` |        |                  |
+| [keyple-util-java-lib]                          | `2.4.0` |        |                  |
+|                                                 |         |        |                  |
+| **Keyple Distributed**                          |         |        |                  |
+| [keyple-distributed-local-java-lib]             | `2.5.2` |        |                  |
+| [keyple-distributed-network-java-lib]           | `2.5.1` |        |                  |
+| [keyple-distributed-remote-java-lib]            | `2.5.1` |        |                  |
+|                                                 |         |        |                  |
+| **Keyple Interop**                              |         |        |                  |
+| [keyple-interop-jsonapi-client-kmp-lib]         | `0.1.6` |        |                  |
+| [keyple-interop-localreader-nfcmobile-kmp-lib]  | `0.1.6` |        |                  |
+|                                                 |         |        |                  |
+| **Keyple Card Extensions**                      |         |        |                  |
+| [keyple-card-calypso-java-lib]                  | `3.2.1` |   🟢   |     `3.2.0`      |
+| [keyple-card-calypso-crypto-legacysam-java-lib] | `1.0.0` |        |                  |
+| [keyple-card-calypso-crypto-pki-java-lib]       | `0.2.3` |        |                  |
+| [keyple-card-generic-java-lib]                  | `3.2.0` |        |                  |
+|                                                 |         |        |                  |
+| **Keyple Reader Plugins**                       |         |        |                  |
+| [keyple-plugin-android-nfc-java-lib]            | `3.1.0` |        |                  |
+| [keyple-plugin-android-omapi-java-lib]          | `2.1.0` |        |                  |
+| [keyple-plugin-cardresource-java-lib]           | `2.0.1` |        |                  |
+| [keyple-plugin-pcsc-java-lib]                   | `2.6.0` |   🔵   |     `2.5.3`      |
+| [keyple-plugin-stub-java-lib]                   | `2.2.1` |        |                  |
+
 ## [2025.11.21]
 
 | Component                                       | Version | Status | Prev.<br>Version |
@@ -205,7 +244,8 @@ This release defines a consistent set of versions for **Keyple** and **Keypop** 
 | [keyple-plugin-pcsc-java-lib]                   | `2.5.2` |   🆕   |
 | [keyple-plugin-stub-java-lib]                   | `2.2.1` |   🆕   |
 
-[Unreleased]: https://github.com/eclipse-keyple/keyple-java-bom/compare/2025.11.21...HEAD
+[Unreleased]: https://github.com/eclipse-keyple/keyple-java-bom/compare/2025.12.12...HEAD
+[2025.12.12]: https://github.com/eclipse-keyple/keyple-java-bom/compare/2025.11.21...2025.12.12
 [2025.11.21]: https://github.com/eclipse-keyple/keyple-java-bom/compare/2025.11.13...2025.11.21
 [2025.11.13]: https://github.com/eclipse-keyple/keyple-java-bom/compare/2025.11.12...2025.11.13
 [2025.11.12]: https://github.com/eclipse-keyple/keyple-java-bom/compare/2025.10.24...2025.11.12
