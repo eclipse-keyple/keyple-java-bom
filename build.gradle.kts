@@ -28,17 +28,17 @@ dependencies {
     api("org.eclipse.keypop:keypop-reader-java-api:2.1.0")
     api("org.eclipse.keypop:keypop-calypso-card-java-api:2.2.0")
     api("org.eclipse.keypop:keypop-calypso-crypto-legacysam-java-api:1.0.0")
-    api("org.eclipse.keypop:keypop-storagecard-java-api:1.0.0")
+    api("org.eclipse.keypop:keypop-storagecard-java-api:1.1.1")
     // Keyple core
     api("org.eclipse.keyple:keyple-common-java-api:2.0.2")
-    api("org.eclipse.keyple:keyple-plugin-storagecard-java-api:1.0.0")
-    api("org.eclipse.keyple:keyple-service-java-lib:3.4.0")
-    api("org.eclipse.keyple:keyple-service-resource-java-lib:3.1.0")
-    api("org.eclipse.keyple:keyple-util-java-lib:2.4.0")
+    api("org.eclipse.keyple:keyple-plugin-storagecard-java-api:1.1.0")
+    api("org.eclipse.keyple:keyple-service-java-lib:3.4.1")
+    api("org.eclipse.keyple:keyple-service-resource-java-lib:3.1.1")
+    api("org.eclipse.keyple:keyple-util-java-lib:2.4.1")
     // Keyple distributed
-    api("org.eclipse.keyple:keyple-distributed-local-java-lib:2.5.2")
-    api("org.eclipse.keyple:keyple-distributed-network-java-lib:2.5.1")
-    api("org.eclipse.keyple:keyple-distributed-remote-java-lib:2.5.1")
+    api("org.eclipse.keyple:keyple-distributed-local-java-lib:2.5.3")
+    api("org.eclipse.keyple:keyple-distributed-network-java-lib:2.5.2")
+    api("org.eclipse.keyple:keyple-distributed-remote-java-lib:2.5.2")
     // Keyple interop
     api("org.eclipse.keyple:keyple-interop-jsonapi-client-kmp-lib:0.1.6")
     api("org.eclipse.keyple:keyple-interop-jsonapi-client-kmp-lib-jvm:0.1.6")
@@ -53,16 +53,16 @@ dependencies {
     api("org.eclipse.keyple:keyple-interop-localreader-nfcmobile-kmp-lib-iossimulatorarm64:0.1.6")
     api("org.eclipse.keyple:keyple-interop-localreader-nfcmobile-kmp-lib-iosx64:0.1.6")
     // Keyple card extensions
-    api("org.eclipse.keyple:keyple-card-calypso-java-lib:3.2.1")
-    api("org.eclipse.keyple:keyple-card-calypso-crypto-legacysam-java-lib:1.0.0")
-    api("org.eclipse.keyple:keyple-card-calypso-crypto-pki-java-lib:0.2.3")
-    api("org.eclipse.keyple:keyple-card-generic-java-lib:3.2.0")
+    api("org.eclipse.keyple:keyple-card-calypso-java-lib:3.2.2")
+    api("org.eclipse.keyple:keyple-card-calypso-crypto-legacysam-java-lib:1.0.1")
+    api("org.eclipse.keyple:keyple-card-calypso-crypto-pki-java-lib:0.2.4")
+    api("org.eclipse.keyple:keyple-card-generic-java-lib:3.2.1")
     // Keyple reader plugins
-    api("org.eclipse.keyple:keyple-plugin-android-nfc-java-lib:3.1.0")
-    api("org.eclipse.keyple:keyple-plugin-android-omapi-java-lib:2.1.0")
-    api("org.eclipse.keyple:keyple-plugin-cardresource-java-lib:2.0.1")
-    api("org.eclipse.keyple:keyple-plugin-pcsc-java-lib:2.6.0")
-    api("org.eclipse.keyple:keyple-plugin-stub-java-lib:2.2.1")
+    api("org.eclipse.keyple:keyple-plugin-android-nfc-java-lib:3.2.2")
+    api("org.eclipse.keyple:keyple-plugin-android-omapi-java-lib:2.1.1")
+    api("org.eclipse.keyple:keyple-plugin-cardresource-java-lib:2.0.2")
+    api("org.eclipse.keyple:keyple-plugin-pcsc-java-lib:2.6.2")
+    api("org.eclipse.keyple:keyple-plugin-stub-java-lib:2.2.2")
   }
 }
 
