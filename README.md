@@ -1,9 +1,9 @@
-[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=eclipse_keyple-java-bom&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=eclipse_keyple-java-bom)
-[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=eclipse_keyple-java-bom&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=eclipse_keyple-java-bom)
-[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=eclipse_keyple-java-bom&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=eclipse_keyple-java-bom)
-[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=eclipse_keyple-java-bom&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=eclipse_keyple-java-bom)
-[![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=eclipse_keyple-java-bom&metric=duplicated_lines_density)](https://sonarcloud.io/summary/new_code?id=eclipse_keyple-java-bom)
-[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=eclipse_keyple-java-bom&metric=coverage)](https://sonarcloud.io/summary/new_code?id=eclipse_keyple-java-bom)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=eclipse-keyple_keyple-java-bom&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=eclipse-keyple_keyple-java-bom)
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=eclipse-keyple_keyple-java-bom&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=eclipse-keyple_keyple-java-bom)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=eclipse-keyple_keyple-java-bom&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=eclipse-keyple_keyple-java-bom)
+[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=eclipse-keyple_keyple-java-bom&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=eclipse-keyple_keyple-java-bom)
+[![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=eclipse-keyple_keyple-java-bom&metric=duplicated_lines_density)](https://sonarcloud.io/summary/new_code?id=eclipse-keyple_keyple-java-bom)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=eclipse-keyple_keyple-java-bom&metric=coverage)](https://sonarcloud.io/summary/new_code?id=eclipse-keyple_keyple-java-bom)
 
 # Keyple Java BOM
 

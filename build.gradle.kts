@@ -29,6 +29,7 @@ dependencies {
     api("org.eclipse.keypop:keypop-calypso-card-java-api:2.2.0")
     api("org.eclipse.keypop:keypop-calypso-crypto-legacysam-java-api:1.0.0")
     api("org.eclipse.keypop:keypop-storagecard-java-api:1.1.1")
+    api("org.eclipse.keypop:keypop-genericcard-jvm-api:1.0.0")
     // Keyple core
     api("org.eclipse.keyple:keyple-common-java-api:2.0.2")
     api("org.eclipse.keyple:keyple-plugin-storagecard-java-api:1.1.0")
@@ -56,7 +57,7 @@ dependencies {
     api("org.eclipse.keyple:keyple-card-calypso-java-lib:3.2.2")
     api("org.eclipse.keyple:keyple-card-calypso-crypto-legacysam-java-lib:1.0.1")
     api("org.eclipse.keyple:keyple-card-calypso-crypto-pki-java-lib:0.2.4")
-    api("org.eclipse.keyple:keyple-card-generic-java-lib:3.2.1")
+    api("org.eclipse.keyple:keyple-card-generic-java-lib:4.0.0")
     // Keyple reader plugins
     api("org.eclipse.keyple:keyple-plugin-android-nfc-java-lib:3.2.2")
     api("org.eclipse.keyple:keyple-plugin-android-omapi-java-lib:2.1.1")
