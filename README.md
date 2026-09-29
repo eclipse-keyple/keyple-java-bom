@@ -94,6 +94,23 @@ This project follows a date-based versioning scheme:
 - **Interpretation**: The version number indicates the release date, not the compatibility level.
   → Users should check the release notes to see which artifacts were updated.
 
+### Keyple Distributed libraries
+
+The three libraries of the **Keyple Distributed** solution
+([keyple-distributed-network-java-lib](https://github.com/eclipse-keyple/keyple-distributed-network-java-lib),
+[keyple-distributed-local-java-lib](https://github.com/eclipse-keyple/keyple-distributed-local-java-lib) and
+[keyple-distributed-remote-java-lib](https://github.com/eclipse-keyple/keyple-distributed-remote-java-lib)) form a
+single component split into several artifacts and rely on internal contracts of each other. Their versions are aligned
+according to the following rules:
+- The three libraries always share the same **major** and **minor** version numbers (e.g. `2.6.x`), and are released
+  together for each new major or minor version.
+- **Patch** versions are independent (e.g. `keyple-distributed-local-java-lib` `2.6.1` with
+  `keyple-distributed-network-java-lib` `2.6.0`).
+
+Each version of this BOM therefore references the three Keyple Distributed libraries with the same major and minor
+version numbers. Applications importing the BOM automatically get a consistent set; applications declaring the versions
+explicitly must follow the same rule.
+
 ## 🤖 Continuous Integration
 
 This project uses **GitHub Actions** for continuous integration. Every push and pull request triggers automated builds
