@@ -26,7 +26,7 @@ dependencies {
   constraints {
     // Keypop
     api("org.eclipse.keypop:keypop-reader-java-api:2.1.0")
-    api("org.eclipse.keypop:keypop-calypso-card-java-api:2.2.0")
+    api("org.eclipse.keypop:keypop-calypso-card-java-api:2.3.0")
     api("org.eclipse.keypop:keypop-calypso-crypto-legacysam-java-api:1.0.0")
     api("org.eclipse.keypop:keypop-storagecard-java-api:1.2.0")
     api("org.eclipse.keypop:keypop-genericcard-jvm-api:1.0.0")
@@ -54,7 +54,7 @@ dependencies {
     api("org.eclipse.keyple:keyple-interop-localreader-nfcmobile-kmp-lib-iossimulatorarm64:0.1.6")
     api("org.eclipse.keyple:keyple-interop-localreader-nfcmobile-kmp-lib-iosx64:0.1.6")
     // Keyple card extensions
-    api("org.eclipse.keyple:keyple-card-calypso-java-lib:3.2.2")
+    api("org.eclipse.keyple:keyple-card-calypso-java-lib:3.3.0")
     api("org.eclipse.keyple:keyple-card-calypso-crypto-legacysam-java-lib:1.0.2")
     api("org.eclipse.keyple:keyple-card-calypso-crypto-pki-java-lib:0.2.4")
     api("org.eclipse.keyple:keyple-card-generic-java-lib:4.0.0")
