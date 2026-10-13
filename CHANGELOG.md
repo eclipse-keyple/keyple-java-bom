@@ -1,4 +1,5 @@
 # Changelog
+
 All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
@@ -7,6 +8,46 @@ and this project uses a **date-based versioning scheme** (`YYYY.MM.DD`).
 Legend: 🆕 New • ❌ Removed • 🟢 Patch • 🔵 Minor • 🔴 Major
 
 ## [Unreleased]
+
+## [2026.10.13]
+
+| Component                                       | Version | Status | Prev.<br>Version |
+|:------------------------------------------------|:-------:|:------:|:----------------:|
+| **Keypop Dependencies**                         |         |        |                  |
+| [keypop-reader-java-api]                        | `2.1.0` |        |                  |
+| [keypop-calypso-card-java-api]                  | `2.3.0` |   🔵   |     `2.2.0`      |
+| [keypop-calypso-crypto-legacysam-java-api]      | `1.0.0` |        |                  |
+| [keypop-storagecard-java-api]                   | `1.2.0` |        |                  |
+| [keypop-genericcard-jvm-api]                    | `1.0.0` |        |                  |
+|                                                 |         |        |                  |
+| **Keyple Core**                                 |         |        |                  |
+| [keyple-common-java-api]                        | `2.0.2` |        |                  |
+| [keyple-plugin-storagecard-java-api]            | `1.1.0` |        |                  |
+| [keyple-service-java-lib]                       | `3.5.0` |        |                  |
+| [keyple-service-resource-java-lib]              | `3.1.1` |        |                  |
+| [keyple-util-java-lib]                          | `2.5.0` |        |                  |
+|                                                 |         |        |                  |
+| **Keyple Distributed**                          |         |        |                  |
+| [keyple-distributed-local-java-lib]             | `2.6.0` |        |                  |
+| [keyple-distributed-network-java-lib]           | `2.6.0` |        |                  |
+| [keyple-distributed-remote-java-lib]            | `2.6.0` |        |                  |
+|                                                 |         |        |                  |
+| **Keyple Interop**                              |         |        |                  |
+| [keyple-interop-jsonapi-client-kmp-lib]         | `0.1.6` |        |                  |
+| [keyple-interop-localreader-nfcmobile-kmp-lib]  | `0.1.6` |        |                  |
+|                                                 |         |        |                  |
+| **Keyple Card Extensions**                      |         |        |                  |
+| [keyple-card-calypso-java-lib]                  | `3.3.0` |   🔵   |     `3.2.2`      |
+| [keyple-card-calypso-crypto-legacysam-java-lib] | `1.0.2` |        |                  |
+| [keyple-card-calypso-crypto-pki-java-lib]       | `0.2.4` |        |                  |
+| [keyple-card-generic-java-lib]                  | `4.0.0` |        |                  |
+|                                                 |         |        |                  |
+| **Keyple Reader Plugins**                       |         |        |                  |
+| [keyple-plugin-android-nfc-java-lib]            | `3.2.2` |        |                  |
+| [keyple-plugin-android-omapi-java-lib]          | `2.1.1` |        |                  |
+| [keyple-plugin-cardresource-java-lib]           | `2.0.2` |        |                  |
+| [keyple-plugin-pcsc-java-lib]                   | `2.6.3` |        |                  |
+| [keyple-plugin-stub-java-lib]                   | `2.2.2` |        |                  |
 
 ## [2026.09.29]
 
@@ -363,6 +404,7 @@ Legend: 🆕 New • ❌ Removed • 🟢 Patch • 🔵 Minor • 🔴 Major
 | [keyple-plugin-stub-java-lib]                   | `2.2.1` |        |                  |
 
 ## [2025.09.12]
+
 First publication of the **Keyple Java BOM**.  
 This release defines a consistent set of versions for **Keyple** and **Keypop** artifacts.
 
@@ -403,7 +445,8 @@ This release defines a consistent set of versions for **Keyple** and **Keypop** 
 | [keyple-plugin-pcsc-java-lib]                   | `2.5.2` |   🆕   |
 | [keyple-plugin-stub-java-lib]                   | `2.2.1` |   🆕   |
 
-[Unreleased]: https://github.com/eclipse-keyple/keyple-java-bom/compare/2026.09.29...HEAD
+[Unreleased]: https://github.com/eclipse-keyple/keyple-java-bom/compare/2026.10.13...HEAD
+[2026.10.13]: https://github.com/eclipse-keyple/keyple-java-bom/compare/2026.09.29...2026.10.13
 [2026.09.29]: https://github.com/eclipse-keyple/keyple-java-bom/compare/2026.09.29...2026.09.29
 [2026.09.29]: https://github.com/eclipse-keyple/keyple-java-bom/compare/2026.03.19...2026.09.29
 [2026.03.19]: https://github.com/eclipse-keyple/keyple-java-bom/compare/2026.03.16...2026.03.19
