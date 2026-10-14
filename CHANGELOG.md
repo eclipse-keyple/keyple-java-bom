@@ -9,7 +9,7 @@ Legend: 🆕 New • ❌ Removed • 🟢 Patch • 🔵 Minor • 🔴 Major
 
 ## [Unreleased]
 
-## [2026.10.13]
+## [2026.10.14]
 
 | Component                                       | Version | Status | Prev.<br>Version |
 |:------------------------------------------------|:-------:|:------:|:----------------:|
@@ -445,8 +445,8 @@ This release defines a consistent set of versions for **Keyple** and **Keypop** 
 | [keyple-plugin-pcsc-java-lib]                   | `2.5.2` |   🆕   |
 | [keyple-plugin-stub-java-lib]                   | `2.2.1` |   🆕   |
 
-[Unreleased]: https://github.com/eclipse-keyple/keyple-java-bom/compare/2026.10.13...HEAD
-[2026.10.13]: https://github.com/eclipse-keyple/keyple-java-bom/compare/2026.09.29...2026.10.13
+[Unreleased]: https://github.com/eclipse-keyple/keyple-java-bom/compare/2026.10.14...HEAD
+[2026.10.14]: https://github.com/eclipse-keyple/keyple-java-bom/compare/2026.09.29...2026.10.14
 [2026.09.29]: https://github.com/eclipse-keyple/keyple-java-bom/compare/2026.09.29...2026.09.29
 [2026.09.29]: https://github.com/eclipse-keyple/keyple-java-bom/compare/2026.03.19...2026.09.29
 [2026.03.19]: https://github.com/eclipse-keyple/keyple-java-bom/compare/2026.03.16...2026.03.19
