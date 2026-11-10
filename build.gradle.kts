@@ -54,13 +54,13 @@ dependencies {
     api("org.eclipse.keyple:keyple-interop-localreader-nfcmobile-kmp-lib-iossimulatorarm64:0.1.6")
     api("org.eclipse.keyple:keyple-interop-localreader-nfcmobile-kmp-lib-iosx64:0.1.6")
     // Keyple card extensions
-    api("org.eclipse.keyple:keyple-card-calypso-java-lib:3.3.0")
+    api("org.eclipse.keyple:keyple-card-calypso-java-lib:3.3.1")
     api("org.eclipse.keyple:keyple-card-calypso-crypto-legacysam-java-lib:1.0.2")
     api("org.eclipse.keyple:keyple-card-calypso-crypto-pki-java-lib:0.2.4")
     api("org.eclipse.keyple:keyple-card-generic-java-lib:4.0.0")
     // Keyple reader plugins
     api("org.eclipse.keyple:keyple-plugin-android-nfc-java-lib:3.2.2")
-    api("org.eclipse.keyple:keyple-plugin-android-omapi-java-lib:2.1.1")
+    api("org.eclipse.keyple:keyple-plugin-android-omapi-java-lib:2.1.2")
     api("org.eclipse.keyple:keyple-plugin-cardresource-java-lib:2.0.2")
     api("org.eclipse.keyple:keyple-plugin-pcsc-java-lib:2.6.3")
     api("org.eclipse.keyple:keyple-plugin-stub-java-lib:2.2.2")
